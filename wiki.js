@@ -21,7 +21,7 @@ $("#search").click(function(){
       data.geonames.forEach(function(item){
       		var $h2 = $("<h2>"+item.title+"</h2>");
           var $p = $("<p>"+item.summary+"</p>");
-          var $link = $("<a href='http://"+item.wikipediaUrl+"' target='_blank'>More info on Wikipedia</a>");
+          var $link = $("<a href='https://"+item.wikipediaUrl+"' target='_blank'>More info on Wikipedia</a>");
           $h2.appendTo("#results");
           $p.appendTo("#results");
           $link.appendTo("#results");
