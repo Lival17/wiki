@@ -9,7 +9,7 @@
 $("#search").click(function(){
 	var query = $("#query").val();
   $.getJSON(
-  		"http://ws.geonames.org/wikipediaSearch",
+  		"https://ws.geonames.org/wikipediaSearch",
       {
       		q: query,
           username: "nbauwens",
